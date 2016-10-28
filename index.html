@@ -9,12 +9,12 @@
     <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
     <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
     <script src="./node_modules/angular-ui-grid/ui-grid.js"></script>
-  
+
     <script src="app.js"></script>
   </head>
-  <body>
-    <div ng-controller="MainCtrl">
-      <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
-    </div>
+  <body>  
+        <div ng-controller="MainCtrl">
+          <div id="grid1" ui-grid="gridOptions" ui-grid-edit class="grid"></div>
+        </div>
   </body>
 </html>
